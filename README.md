@@ -2,6 +2,8 @@
 Bangla NLP dataset. This repository contains sbnltk datasets, which were used in  [Bangla nlp toolkit - sbnltk](https://github.com/Foysal87/sbnltk) .
 Also , Existing Datasets are being listed here! 
 
+**OUR DATASET IS IN LFS MODE! SO YOU HAVE TO CLONE IT FOR GETTING DATA!**
+
 **WE WILL SOON UPLOAD ALL DEEP LEARNING BASED DATASETS!**
 
 ## sbnltk Dataset List(DUMP & HUMAN Evaluated)(sbnltk Dataset)
