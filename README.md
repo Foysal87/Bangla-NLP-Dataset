@@ -86,7 +86,7 @@ Also , Existing Datasets are being listed here!
 
 
 ### BANGLA FAKE NEWS DETECTION
-* [50k BANGLA fake news dataset](https://github.com/Rowan1697/FakeNews)
+* [50k BANGLA fake news dataset](https://www.kaggle.com/cryptexcode/banfakenews)
 * 
 
 ### MISC
