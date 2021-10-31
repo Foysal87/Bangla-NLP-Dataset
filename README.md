@@ -25,7 +25,9 @@ Also , Existing Datasets are being listed here!
 * DUMP NER data (active and passive both) [drive](https://drive.google.com/file/d/1IxQc5QJRA5cXsxE8v8prHbBBSmMl1gtw/view?usp=sharing)
 * DUMP NER data(active only) [drive](https://drive.google.com/file/d/1AT4FkyqyioLIc6wy8mo7cv_Q2ZTnGS_1/view?usp=sharing)
 * Extractive Text Summarization [github](https://github.com/Abid-Mahadi/Bangla-Text-summarization-Dataset)
-* Abstractive Text Summarization(newspaper)
+* Abstractive Text Summarization(newspaper) [drive](https://drive.google.com/file/d/1T1dN2GZPYfkWQWc49BUAm2wIhIfiAjdq/view?usp=sharing) [kaggle](https://www.kaggle.com/towhidahmedfoysal/bangla-summarization-datasetprothom-alo)
+* News Article Classification(text Classification) [drive](https://drive.google.com/file/d/1T1dN2GZPYfkWQWc49BUAm2wIhIfiAjdq/view?usp=sharing) [kaggle](https://www.kaggle.com/towhidahmedfoysal/bangla-summarization-datasetprothom-alo)
+* Topic Keywords classfication(keywords generator) [drive](https://drive.google.com/file/d/1T1dN2GZPYfkWQWc49BUAm2wIhIfiAjdq/view?usp=sharing) [kaggle](https://www.kaggle.com/towhidahmedfoysal/bangla-summarization-datasetprothom-alo)
 
 ## EXISTING DATASET
 
