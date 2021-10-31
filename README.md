@@ -7,18 +7,25 @@ Also , Existing Datasets are being listed here!
 **WE WILL SOON UPLOAD ALL DEEP LEARNING BASED DATASETS!**
 
 ## sbnltk Dataset List(DUMP & HUMAN Evaluated)(sbnltk Dataset)
-* Bangla Semantic Analysis Dataset
-* Bangla NER Dataset
-* Bangla Postag Dataset
-* Bangla Extractive summarization dataset
-* Bangla QA Dataset
-* Bangla to English translate dataset
-* Bangla Root word
-* Bangla Stopword dataset
-* Bangla wiki article
-* Bangla news article dataset
-* Bangla wiki word Dataset
-
+* Bangla Number List [drive](https://drive.google.com/file/d/1r85Fwkx2EP2nCESDWlBRy_KcVc5ou3bJ/view)
+* Bangla root word List [drive](https://drive.google.com/file/d/1sI1s5J4efXzJYd-7Vel2qm-NEZ1Tdzhq/view)
+* Bangla Word List (highest to lowest occurrence) [drive](https://drive.google.com/file/d/1Q7lsl9ifQTowC10f3zTXX6QAggTVcD10/view)
+* Bangla Wiki Dump word [drive](https://drive.google.com/file/d/1PSWX6HlIUBlwhqi-zK7XunwkzK_mZYSI/view)
+* Bangla POStag static dataset(single word) [drive](https://drive.google.com/file/d/14TImhPiW3uQ7R5HRvL5jPMq2R59qd9eT/view)
+* Bangla NER Static Dataset(single word) [drive](https://drive.google.com/file/d/1eVQ3f7X74lCxbURlEjOdUWgRikSXIRlm/view)
+* Bangla Stop word list [drive](https://drive.google.com/file/d/10hZ0Eu_jLWmY_kkkdutXOZGUvdLLKHgy/view)
+* Bangla Dump Pos tag [drive](https://drive.google.com/file/d/1-oMBFmFVmCNRUQrL0hF9uJB6ytdseKy6/view?usp=sharing)
+* Bangla Dump question Classification Dataset [drive](https://drive.google.com/file/d/1sM2Zo8K1U80rBMdhylr0STYA9-M49xS2/view?usp=sharing)
+* Bangla Dump Sentiment Analysis [drive](https://drive.google.com/drive/u/2/folders/1RayFcSnmCuTNmH2ojF-xB3y7QyzGQkCw)
+* Google Translation Dataset [drive](https://drive.google.com/drive/u/2/folders/1qdgJfu0zkxww7m9DWfr73PayrK4g-XH3)
+* NER Existing Dataset(Modified + adding Date entity) [drive](https://drive.google.com/file/d/1UouYz1kPKeje1vSWhDh1Ashr_32-BcaG/view?usp=sharing)
+* News Article Dataset [drive](https://drive.google.com/file/d/1fvtabFEHqSCEILhIxDxYSR6Vb80l3BhK/view?usp=sharing)
+* POS tag converted Data [drive](https://drive.google.com/drive/u/2/folders/1Pv294DshkxFAMfmh9jrZBsS61yLUpc15)
+* POS tag human evaluated Data [drive](https://drive.google.com/drive/u/2/folders/16Ihf_4H0_cCyFe5gMK-kx2Lw09C39-Cw)
+* DUMP NER data (active and passive both) [drive](https://drive.google.com/file/d/1IxQc5QJRA5cXsxE8v8prHbBBSmMl1gtw/view?usp=sharing)
+* DUMP NER data(active only) [drive](https://drive.google.com/file/d/1AT4FkyqyioLIc6wy8mo7cv_Q2ZTnGS_1/view?usp=sharing)
+* Extractive Text Summarization [github](https://github.com/Abid-Mahadi/Bangla-Text-summarization-Dataset)
+* Abstractive Text Summarization(newspaper)
 
 ## EXISTING DATASET
 
