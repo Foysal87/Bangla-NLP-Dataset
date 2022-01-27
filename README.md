@@ -29,6 +29,9 @@ Also , Existing Datasets are being listed here!
 * News Article Classification(text Classification) [drive](https://drive.google.com/file/d/1T1dN2GZPYfkWQWc49BUAm2wIhIfiAjdq/view?usp=sharing) [kaggle](https://www.kaggle.com/towhidahmedfoysal/bangla-summarization-datasetprothom-alo)
 * Topic Keywords classfication(keywords generator) [drive](https://drive.google.com/file/d/1T1dN2GZPYfkWQWc49BUAm2wIhIfiAjdq/view?usp=sharing) [kaggle](https://www.kaggle.com/towhidahmedfoysal/bangla-summarization-datasetprothom-alo)
 
+## Paper
+* Text Summarization paper [cite](https://ieeexplore.ieee.org/document/9667900)
+
 ## EXISTING DATASET
 
 **I am not the owner of these following datasets. It's just a collection to find amazing peoples and their works**
