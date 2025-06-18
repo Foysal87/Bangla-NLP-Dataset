@@ -23,7 +23,10 @@
 
 - [📖 About](#-about)
 - [🎯 sbnltk Dataset List](#-sbnltk-dataset-listdump--human-evaluatedsbnltk-dataset)
+- [🤖 Pre-trained Language Models](#-pre-trained-language-models)
 - [📄 Research Papers](#-research-papers)
+- [🔧 Modern NLP Tools and Libraries](#-modern-nlp-tools-and-libraries)
+- [📊 Benchmarking and Evaluation](#-benchmarking-and-evaluation)
 - [🌟 Existing Datasets](#-existing-datasets)
   - [📰 News Articles and Documents](#-news-articles-and-documents)
   - [🎤 Speech to Text / Text to Speech](#-speech-to-text--text-to-speech)
@@ -34,6 +37,7 @@
   - [❓ Question Answering Dataset](#-question-answering-dataset)
   - [📝 Bangla Text Summarization](#-bangla-text-summarization)
   - [🕵️ Bangla Fake News Detection](#-bangla-fake-news-detection)
+  - [🖊️ Handwriting Recognition / OCR](#-handwriting-recognition--ocr)
   - [🔧 Miscellaneous](#-miscellaneous)
 - [💡 Motivation](#-motivation)
 - [🤝 Usage and Contribute](#-usage-and-contribute)
@@ -70,9 +74,91 @@ This repository also serves as a comprehensive collection of existing Bangla NLP
 | **Text Classification** | News Article Classification (text Classification) | [📥 Drive](https://drive.google.com/file/d/1T1dN2GZPYfkWQWc49BUAm2wIhIfiAjdq/view?usp=sharing) \| [📊 Kaggle](https://www.kaggle.com/towhidahmedfoysal/bangla-summarization-datasetprothom-alo) |
 | **Keywords Classification** | Topic Keywords classification (keywords generator) | [📥 Drive](https://drive.google.com/file/d/1T1dN2GZPYfkWQWc49BUAm2wIhIfiAjdq/view?usp=sharing) \| [📊 Kaggle](https://www.kaggle.com/towhidahmedfoysal/bangla-summarization-datasetprothom-alo) |
 
+## 🤖 Pre-trained Language Models
+
+### BERT-based Models
+
+| Model | Description | Parameters | Link |
+|-------|-------------|------------|------|
+| **BanglaBERT** | ELECTRA-based model, state-of-the-art Bangla NLU | 110M | [🤗 HuggingFace](https://huggingface.co/csebuetnlp/banglabert) |
+| **BanglishBERT** | Bilingual (Bangla+English) BERT | 110M | [🤗 HuggingFace](https://huggingface.co/csebuetnlp/banglishbert) |
+| **BanglaBERT (Small)** | Lightweight version for resource-constrained environments | 13M | [🤗 HuggingFace](https://huggingface.co/csebuetnlp/banglabert_small) |
+| **BanglaBERT (Large)** | Large variant with enhanced performance | 335M | [🤗 HuggingFace](https://huggingface.co/csebuetnlp/banglabert_large) |
+| **Bangla BERT Base** | Another popular BERT implementation | 110M | [🤗 HuggingFace](https://huggingface.co/sagorsarker/bangla-bert-base) |
+| **Bangla Electra** | ELECTRA-based model for Bangla | 13.5M | [🤗 HuggingFace](https://huggingface.co/monsoon-nlp/bangla-electra) |
+
+### Generative Models (T5/GPT-style)
+
+| Model | Description | Parameters | Link |
+|-------|-------------|------------|------|
+| **BanglaT5** | T5-based sequence-to-sequence model | 247M | [🤗 HuggingFace](https://huggingface.co/csebuetnlp/banglat5) |
+| **BanglaByT5** | Byte-level T5 model for Bangla | Small | [📄 Research Paper](https://arxiv.org/abs/2505.17102) |
+| **TituLLMs** | Family of Bangla LLMs (1B & 3B) | 1B/3B | [📄 Research Paper](https://arxiv.org/abs/2502.11187) |
+| **TigerLLM** | Bangla Large Language Models family | Various | [📄 Research Paper](https://arxiv.org/abs/2503.10995) |
+
+### Multilingual Models with Strong Bangla Support
+
+| Model | Description | Languages | Link |
+|-------|-------------|-----------|------|
+| **MuRIL** | Google's multilingual model with Bangla support | 17 Indian | [🤗 HuggingFace](https://huggingface.co/google/muril-base-cased) |
+| **IndicBERT** | BERT for Indian languages including Bangla | 12 Indian | [🤗 HuggingFace](https://huggingface.co/ai4bharat/indic-bert) |
+| **sahajBERT** | ALBERT-based model for Bangla | 18M | [🤗 HuggingFace](https://huggingface.co/neuropark/sahajBERT) |
+
 ## 📄 Research Papers
 
+### Latest Research (2024-2025)
+
+- **Bangla/Bengali Seed Dataset for WMT24** - [📖 Paper](https://aclanthology.org/2024.wmt-1.42.pdf)
+- **BanglaByT5: Byte-Level Modelling for Bangla** - [📖 arXiv](https://arxiv.org/abs/2505.17102)
+- **TituLLMs: A Family of Bangla LLMs with Comprehensive Benchmarking** - [📖 arXiv](https://arxiv.org/abs/2502.11187)
+- **TigerLLM: A Family of Bangla Large Language Models** - [📖 arXiv](https://arxiv.org/abs/2503.10995)
+- **BanglaBook: Large-scale Bangla Dataset for Sentiment Analysis** - [📖 ACL 2023](https://github.com/mohsinulkabir14/BanglaBook)
+
+### Foundational Papers
+
+- **BanglaBERT: Language Model Pretraining and Benchmarks** - [📖 NAACL 2022](https://aclanthology.org/2022.findings-naacl.98)
+- **BanglaNLG and BanglaT5: Benchmarks for Bangla NLG** - [📖 EACL 2023](https://arxiv.org/abs/2205.11081)
 - **Text Summarization Paper** - [📖 Cite](https://ieeexplore.ieee.org/document/9667900)
+- **Natural Language Inference in Bangla** - [📖 Research Paper](https://arxiv.org/html/2405.02937v2)
+
+## 🔧 Modern NLP Tools and Libraries
+
+### Python Libraries
+
+| Library | Description | Features | Link |
+|---------|-------------|----------|------|
+| **BNLP** | Bengali Natural Language Processing Toolkit | Tokenization, Embedding, POS, NER | [🔗 GitHub](https://github.com/sagorbrur/bnlp) |
+| **BNLTK** | Bangla Natural Language Processing Toolkit | Tokenization, Stemming, POS Tagging | [🔗 GitHub](https://github.com/asraf-patoary/bnltk) |
+| **sbnltk** | Bangla NLP toolkit (this repository's toolkit) | Comprehensive NLP suite | [🔗 GitHub](https://github.com/Foysal87/sbnltk) |
+
+### Installation Examples
+
+```bash
+# BNLP installation
+pip install bnlp_toolkit
+
+# BNLTK installation  
+pip install bnltk
+```
+
+## 📊 Benchmarking and Evaluation
+
+### Bangla Language Understanding Benchmark (BLUB)
+
+| Task | Dataset | Metric | Best Model | Score |
+|------|---------|--------|-----------|--------|
+| **Sentiment Classification** | SentNoB | Macro-F1 | BanglaBERT | 72.89 |
+| **Natural Language Inference** | BNLI | Accuracy | BanglaBERT (Large) | 83.41 |
+| **Named Entity Recognition** | MultiCoNER | Micro-F1 | BanglaBERT (Large) | 79.20 |
+| **Question Answering** | BQA/TyDiQA | EM/F1 | BanglaBERT (Large) | 76.10/81.50 |
+
+### Recent Datasets for Benchmarking
+
+| Dataset | Task | Size | Description | Link |
+|---------|------|------|-------------|------|
+| **BanglaBook** | Sentiment Analysis | 158,065 samples | Book reviews sentiment analysis | [🔗 GitHub](https://github.com/mohsinulkabir14/BanglaBook) |
+| **SentMix-3L** | Code-Mixed Sentiment | 1,007 samples | Bangla-English-Hindi code-mixed | [🔗 GitHub](https://github.com/LanguageTechnologyLab/SentMix-3L) |
+| **Awesome Bangla Datasets** | Various | Multiple | Comprehensive collection | [🔗 GitHub](https://github.com/VirusProton/Awesome_Bangla_Datasets) |
 
 ## 🌟 Existing Datasets
 
@@ -107,6 +193,8 @@ This repository also serves as a comprehensive collection of existing Bangla NLP
 
 | Dataset | Description | Link |
 |---------|-------------|------|
+| **BanglaBook** | Large-scale book reviews (158K samples) | [🔗 GitHub](https://github.com/mohsinulkabir14/BanglaBook) |
+| **SentMix-3L** | Code-mixed sentiment (Bangla-English-Hindi) | [🔗 GitHub](https://github.com/LanguageTechnologyLab/SentMix-3L) |
 | **Social Media Comments** | Bangla Text Dataset from Social Media | [🔗 GitHub](https://github.com/cypher-07/Bangla-Text-Dataset) |
 | **Sentiment Analysis** | Bengali Sentiment Text | [📊 Kaggle](https://www.kaggle.com/tazimhoque/bengali-sentiment-text) |
 | **News Classification** | Classification Bengali News Articles | [📊 Kaggle](https://www.kaggle.com/csoham/classification-bengali-news-articles-indicnlp) |
@@ -123,6 +211,7 @@ This repository also serves as a comprehensive collection of existing Bangla NLP
 | Dataset | Description | Link |
 |---------|-------------|------|
 | **2.5M Pairs** | 2.5M pair sentences - NOT low resource anymore | [🔗 GitHub](https://github.com/csebuetnlp/banglanmt?fbclid=IwAR23VqcrYzT5d0D98Itwz9ioPD73oPI3BJHX65WqlGDi8S1TcMLWpl0myHk) |
+| **WMT24 Seed Dataset** | High-quality manual translations | [📖 Paper](https://aclanthology.org/2024.wmt-1.42.pdf) |
 | **TED Dataset** | TED dataset (small) | [📥 Download](https://public.ukp.informatik.tu-darmstadt.de/reimers/sentence-transformers/datasets/ted2020.tsv.gz) |
 | **Bangla Dictionary** | Bengali Dictionary | [🔗 GitHub](https://github.com/MinhasKamal/BengaliDictionary) |
 | **SUPERA Dataset** | SUPARA08M Balanced English-Bangla Parallel Corpus | [📊 IEEE DataPort](https://ieee-dataport.org/documents/supara08m-balanced-english-bangla-parallel-corpus) |
@@ -161,6 +250,18 @@ This repository also serves as a comprehensive collection of existing Bangla NLP
 |---------|-------------|------|
 | **50k Fake News** | 50k Bangla fake news dataset | [📊 Kaggle](https://www.kaggle.com/cryptexcode/banfakenews) |
 
+### 🖊️ Handwriting Recognition / OCR
+
+| Dataset | Description | Link |
+|---------|-------------|------|
+| **Ekush** | Bangla Handwritten Characters | [🔗 Website](https://rabby.dev/ekush/) |
+| **Bayanno** | Multi-purpose handwritten dataset | [📊 Mendeley](https://data.mendeley.com/datasets/jtpfd6j55n) |
+| **BN-HTRd** | Document Level Offline Bangla HTR (108k words) | [📊 Mendeley](https://data.mendeley.com/datasets/743k6dm543/1) |
+| **Bongabdo** | Bangla handwritten script dataset | [📄 Research Paper](https://arxiv.org/abs/2101.00204v4) |
+| **PDF Text Detection** | PDF Text Detection dataset | [🔗 Link needed] |
+| **Bangla Handwritten Grapheme** | Grapheme Classification | [📄 Research Paper] |
+| **Bangla Synthetic License Plates** | License plate recognition | [🔗 Link needed] |
+
 ### 🔧 Miscellaneous
 
 | Dataset | Description | Link |
@@ -176,6 +277,20 @@ This repository also serves as a comprehensive collection of existing Bangla NLP
 
 *Documentation for usage and contribution guidelines coming soon...*
 
+### How to Get Started
+
+1. **For Pre-trained Models**: Visit HuggingFace model hub links above
+2. **For Tools**: Install Python libraries like BNLP or BNLTK  
+3. **For Datasets**: Follow the individual dataset links and instructions
+4. **For Research**: Check out the latest papers and benchmarks
+
+### Contributing Guidelines
+
+- 📝 Submit new datasets through pull requests
+- 🐛 Report issues or broken links
+- 💡 Suggest improvements to the documentation
+- 🔬 Share your research findings
+
 ---
 
 <div align="center">
@@ -183,5 +298,9 @@ This repository also serves as a comprehensive collection of existing Bangla NLP
 **⭐ If you find this repository helpful, please give it a star! ⭐**
 
 **🤝 Contributions are welcome! Feel free to submit issues and pull requests.**
+
+**📬 Questions? Open an issue or contact the maintainers.**
+
+**🌟 Special thanks to all the researchers and developers who contributed to Bangla NLP!**
 
 </div>
