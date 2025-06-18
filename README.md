@@ -303,4 +303,14 @@ pip install bnltk
 
 **🌟 Special thanks to all the researchers and developers who contributed to Bangla NLP!**
 
+---
+
+## ☕ Support This Project
+
+If this repository has been helpful to you, consider supporting the project:
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-☕-yellow.svg?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white)](https://www.buymeacoffee.com/towhid_foysal_123)
+
+Your support helps maintain and improve this resource for the Bangla NLP community! 💚
+
 </div>
